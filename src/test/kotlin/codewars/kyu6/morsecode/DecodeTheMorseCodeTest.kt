@@ -1,13 +1,12 @@
 package codewars.kyu6.morsecode
 
+import codewars.kyu6.morsecode.DecodeTheMorseCode.decodeMorse
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
 class DecodeTheMorseCodeTest {
-    private val sut = DecodeTheMorseCode()
-
     @Test
     fun exampleTestCases() {
-        assertEquals("HEY JUDE", sut.decodeMorse(".... . -.--   .--- ..- -.. ."))
+        assertEquals("HEY JUDE", decodeMorse(".... . -.--   .--- ..- -.. ."))
     }
 }

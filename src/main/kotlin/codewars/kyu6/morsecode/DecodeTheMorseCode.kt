@@ -2,7 +2,7 @@ package codewars.kyu6.morsecode
 
 import codewars.utils.Constants.MorseCode
 
-class DecodeTheMorseCode {
+object DecodeTheMorseCode {
     fun decodeMorse(code: String): String =
         code
             .trim()
